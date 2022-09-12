@@ -48,6 +48,16 @@ header > ul {height: 81.6%;}
 #ir > g{stroke: white;stroke-width: 1px;cursor: pointer;transition: .3s}
 #ir > g:not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman){fill: lightgrey}
 #ir > g:is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {fill: #bababa;}
+.dv-text-grey {color: grey}
+
+.dv-button {
+    background-color: var(--dark-green);
+    color: white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 0 0 transparent;
+    font-size: 12px;
+}
 
 .dv-paragraph-bg-line {
     background-color: lightgrey;
@@ -74,6 +84,7 @@ header .nav-item:after {
 /*Hover, Active, Focus, ...*/
 header .nav-item:hover:after {transform: translateX(0%);}
 #ir > g:hover {fill: var(--green) !important}
+.dv-button:is(:hover, :active, :focus) {box-shadow: 0 0 0 5px var(--light-green);}
 
 /*Animations*/
 @keyframes loader-icon { from {opacity: 0;transform: translateY(-100%);} to {opacity: 1;transform: translateY(0)} }
