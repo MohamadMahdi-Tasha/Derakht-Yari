@@ -25,6 +25,11 @@ body {
 .dv-text-green {color: var(--green);}
 .dv-text-light-green {color: var(--light-green);}
 .dv-text-dark-green {color: var(--dark-green);}
+#loader[data-opened='true'] {opacity: 1;pointer-events: visible}
+#loader[data-opened='false'] {opacity: 0;pointer-events: none}
 
+/*Animations*/
 @keyframes loader-icon { from {opacity: 0;transform: translateY(-100%);} to {opacity: 1;transform: translateY(0)} }
 @keyframes loader-content { from {opacity: 0;transform: translateX(-100%);} to {opacity: 1;transform: translateX(0)} }
+
+/*Media Query's*/
