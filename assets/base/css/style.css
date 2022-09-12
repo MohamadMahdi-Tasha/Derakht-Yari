@@ -105,6 +105,7 @@ header .nav-item:hover:after {transform: translateX(0%);}
     .dv-left-side-section footer h6 {font-size: 1rem !important;}
     .dv-paragraph {font-size: 1rem !important;line-height: normal;}
     #iran-svg {width: 100%;height: auto;}
+    .dv-middle-bottom-side > div:first-of-type > ul  img{width: 25px;height: 25px;}
     h4 {font-size: 2rem !important;}
     h5 {font-size: 1.5rem !important;}
     h6 {font-size: 1rem !important;}
@@ -116,7 +117,6 @@ header .nav-item:hover:after {transform: translateX(0%);}
         background-color: var(--green);
         color: white;
     }
-
 
     .dv-left-top-middle-text {
         background-color: var(--green);
