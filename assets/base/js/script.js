@@ -6,7 +6,8 @@ const nav = document.getElementById('right-side');
 const rightSideDarkBg = document.getElementById('right-side-dark-bg');
 
 // Adding Event Listener Of Load On Window Which Listens To Load Of Full Page Then Closes Loader Modal
-window.addEventListener('load', () => loader.setAttribute('data-opened', 'false'))
+// window.addEventListener('load', () => loader.setAttribute('data-opened', 'false'))
+setTimeout(() => loader.setAttribute('data-opened', 'false'), 3000)
 
 // Adding '/' Behind Href Of Each Anchor Tag
 document.querySelectorAll('a').forEach(item => {
