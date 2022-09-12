@@ -101,22 +101,22 @@ header .nav-item:hover:after {transform: translateX(0%);}
 @media (max-width: 991px) {
     .dv-header-top-side {aspect-ratio: auto;padding: 1rem;}
     .nav-item, .dv-left-top-middle-text {transform: rotate(0) !important;}
-    .dv-middle-top-side.h-50 {height: auto !important}
-    .dv-middle-bottom-side-side.h-50 {height: auto !important;}
-    .dv-middle-side.h-100 {height: auto !important ;}
+    .dv-middle-side.h-100, .dv-left-side-section.h-100, .dv-middle-bottom-side-side.h-50, .dv-middle-top-side.h-50, main#swup.h-100 {height: auto !important ;}
+    .dv-left-side-section footer h6 {font-size: 1rem !important;}
+    .dv-paragraph {font-size: 1rem !important;line-height: normal;}
+    #iran-svg {width: 100%;height: auto;}
+    h4 {font-size: 2rem !important;}
+    h5 {font-size: 1.5rem !important;}
+    h6 {font-size: 1rem !important;}
+    h2 {font-size: 3rem !important}
+    a {font-size: 1rem}
+
     .dv-left-side-section > footer {
         margin-top: 1rem;
         background-color: var(--green);
         color: white;
     }
 
-    h4 {font-size: 2rem !important;}
-    h5 {font-size: 1.5rem !important;}
-    h6 {font-size: 1rem !important;}
-    .dv-left-side-section footer h6 {font-size: 1rem !important;}
-    h2 {font-size: 3rem !important}
-    a {font-size: 1rem}
-    .dv-paragraph {font-size: 1rem !important;line-height: normal;}
 
     .dv-left-top-middle-text {
         background-color: var(--green);
