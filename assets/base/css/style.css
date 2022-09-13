@@ -1,11 +1,11 @@
-/*Importing Font*/
+/*Importing Font
 @import "../font/Yekan/Yekan.css";
-
+*/
 /*Variables*/
 :root {
     --green: #60725a;
     --light-green: #bfd730;
-    --dark-green: #004227;
+    --dark-green: #077d41;
 }
 
 /*CSS RESET*/
@@ -16,13 +16,13 @@ a {text-decoration: none !important;}
 body {
     font-size: 18px;
     font-weight: normal;
-    font-family: 'Yekan', "Roboto Light", Verdana, sans-serif !important;
+    font-family: 'IRANSans', "Roboto Light", Verdana, sans-serif !important;
 }
 
 /*Styles*/
 #right-side {transition: .3s}
 #right-side .nav-item {transform-origin: center;transform: rotate(270deg);position: relative;overflow:hidden;}
-#right-side .nav-link {font-size: .9vw !important;margin-bottom: 5px;}
+#right-side .nav-link {font-size: .9rem !important;margin-bottom: 5px;}
 #right-side > ul {height: 81.6%;}
 .dv-inset-0 {inset: 0;}
 .dv-loader-modal-icon {animation: loader-icon .7s ease-in-out;}
@@ -54,7 +54,7 @@ body {
 h4 {font-size: 2vw !important;}
 h5 {font-size: 1.25vw !important;}
 h6 {font-size: 1.5vw !important;}
-.dv-left-side-section footer h6 {font-size: .7vw !important;}
+.dv-left-side-section footer h6 {font-size: 0.8rem!important}
 h2 {font-size: 3vw !important}
 a {font-size: 1vw}
 #right-side-dark-bg {background-color: rgba(0,0,0,.5);transition: .3s;z-index: 1;}
@@ -93,7 +93,7 @@ a {font-size: 1vw}
 /*Hover, Active, Focus, ...*/
 #right-side .nav-item:hover:after {transform: translateX(0%);}
 #ir > g:hover {fill: var(--green) !important}
-.dv-button:is(:hover, :active, :focus) {box-shadow: 0 0 0 5px var(--light-green);}
+.dv-button:is(:hover, :active, :focus) {border-radius: 20px 0;}
 
 /*Animations*/
 @keyframes loader-icon { from {opacity: 0;transform: translateY(-100%);} to {opacity: 1;transform: translateY(0)} }
@@ -153,4 +153,8 @@ a {font-size: 1vw}
         z-index: 1;
         right: 0;
     }
+}
+.dv-title-counter{
+    font-size: 1.8rem;
+    font-weight: bold!important;
 }
