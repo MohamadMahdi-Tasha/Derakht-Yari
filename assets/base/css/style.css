@@ -58,8 +58,9 @@ h6 {font-size: 1.2vw !important;}
 .dv-bg-dark-green {background-color: var(--dark-green);}
 .dv-bg-green {background-color: var(--green);}
 h2 {font-size: 3vw !important}
-a {font-size: 1vw}
 #right-side-dark-bg {background-color: rgba(0,0,0,.5);transition: .3s;z-index: 1;}
+.dv-left-side-header > div:first-of-type > h6:last-of-type{font-size: 1.25rem !important;}
+.dv-left-side-header > div:first-of-type > h6:first-of-type{font-size: 1rem !important;}
 
 .dv-button {
     background-color: var(--dark-green);
