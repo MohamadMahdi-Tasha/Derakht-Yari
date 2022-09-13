@@ -42,15 +42,15 @@ body {
 .dv-paragraph-holder::-webkit-scrollbar {background-color: unset;width: 3px;}
 .dv-paragraph-holder::-webkit-scrollbar-thumb {background-color: white;}
 .dv-paragraph-holder::-webkit-scrollbar-track {width: 5px !important;}
-.dv-paragraph {font-size: .9vw !important;line-height: 1.25vw;font-weight: lighter;}
+.dv-paragraph {font-size: .7rem !important;font-weight: lighter;}
 #ir > g{stroke: white;stroke-width: 1px;cursor: pointer;transition: .3s}
 #ir > g:not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman){fill: lightgrey}
 #ir > g:is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {fill: #bababa;}
 .dv-text-grey {color: grey}
 h4 {font-size: 2vw !important;}
 h5 {font-size: 1.25vw !important;}
-h6 {font-size: 1.5vw !important;}
-.dv-left-side-section footer h6 {font-size: 0.8rem!important}
+h6 {font-size: 1.2vw !important;}
+.dv-left-side-section footer h6 {font-size: 0.6rem!important}
 h2 {font-size: 3vw !important}
 a {font-size: 1vw}
 #right-side-dark-bg {background-color: rgba(0,0,0,.5);transition: .3s;z-index: 1;}
