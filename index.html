@@ -23,11 +23,6 @@
     <title>درخت یاری</title>
 </head>
 <body dir="rtl">
-<!--Donate Holder-->
-<div>
-    <span>جمایت مالی</span>
-    <span>جمایت سازمانی</span>
-</div>
 <!--Loader-->
 <div id="loader" data-opened="true" class="d-flex justify-content-center align-items-center position-fixed dv-inset-0 bg-white">
     <div class="d-flex justify-content-center align-items-center flex-column gap-3">
@@ -59,7 +54,12 @@
     <!--Content To Change-->
     <main id="swup" class="transition-fade col-lg-11 col-12 d-flex flex-lg-row flex-column align-items-center justify-content-start h-100">
         <!--Middle Side-->
-        <section class="dv-middle-side dv-bg-green col-lg-6 col-12 h-100">
+        <section class="dv-middle-side dv-bg-green col-lg-6 col-12 h-100 position-relative">
+            <!--Donate Holder-->
+            <div class="position-absolute no-touch left-0 dv-donate-holder d-lg-flex d-none">
+                <span class="bg-white text-center d-block dv-text-dark-green">جمایت مالی</span>
+                <span class="dv-bg-green text-center d-block text-white">جمایت سازمانی</span>
+            </div>
             <!--Top Side-->
             <header class="dv-middle-top-side col-12 h-50">
                 <div class="dv-middle-top-side-inner-dark-bg h-100  justify-content-lg-between justify-content-center d-flex flex-lg-row flex-column p-4">
