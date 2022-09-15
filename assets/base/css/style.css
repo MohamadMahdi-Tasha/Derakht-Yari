@@ -81,7 +81,7 @@ h2 {font-size: 3vw !important}
     background-color: lightgrey;
     width: 1px;
     height: 100%;
-    transform: translateX(-50%);
+    transform: translateX(-100%);
     pointer-events: none;
     top: 0;
     right: 0;
