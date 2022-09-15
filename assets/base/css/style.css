@@ -14,21 +14,25 @@
 img {pointer-events: none}
 button {transition: .3s;cursor: pointer;}
 a {text-decoration: none !important;}
-body {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'iranyekan','YekanBakh', "Roboto Light", Verdana, sans-serif !important;
-}
+body {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;}
 
 /*Styles*/
-.dv-ff-diffrent {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;}
+.dv-ff-yekan {font-family: 'iranyekan', "Roboto Light", Verdana, sans-serif !important;}
+.dv-fw-thin {font-weight: 100;}
+.dv-fw-regular {font-weight: 400;}
+.dv-fw-medium {font-weight: 500;}
+.dv-fw-medium {font-weight: 500;}
+.dv-fw-heavy {font-weight: 800;}
+.dv-fw-fat {font-weight: 900;}
 #right-side {transition: .3s}
 #right-side .nav-item {transform-origin: center;transform: rotate(270deg);position: relative;overflow:hidden;}
-#right-side .nav-link {font-size: .6rem !important;margin-bottom: 5px;}
+#right-side .nav-link {font-size: .7rem !important;margin-bottom: 5px;}
 #right-side > ul {height: 81.6%;}
 .dv-inset-0 {inset: 0;}
 .dv-loader-modal-icon {animation: loader-icon .7s ease-in-out;}
 .dv-loader-content {animation: loader-content 1.4s ease-in-out}
+.dv-title-middle-side > span:first-of-type {font-size: 4vw;}
+.dv-title-middle-side > span:last-of-type {font-size: 3vw !important;}
 .dv-text-green {color: var(--green);}
 .dv-text-light-green {color: var(--light-green);}
 .dv-text-dark-green {color: var(--dark-green);}
@@ -54,23 +58,23 @@ h5 {font-size: 1.25vw !important;}
 h6 {font-size: 1.2vw !important;}
 .dv-left-side-section footer h6 {font-size: 0.6rem!important}
 .left-0 {left: 0;}
-.dv-donate-holder {transform: translateX(-50%);bottom: 2rem;}
+.dv-donate-holder {transform: translateX(-50%);bottom: 2rem;z-index: 1050;}
 .dv-donate-holder > span{width: 10vw;}
 .no-touch {pointer-events: none;}
 .dv-bg-dark-green {background-color: var(--dark-green);}
 .dv-bg-green {background-color: var(--green);}
 h2 {font-size: 3vw !important}
 #right-side-dark-bg {background-color: rgba(0,0,0,.5);transition: .3s;z-index: 1;}
-.dv-left-side-header > div:first-of-type > h6:last-of-type{font-size: 1.25rem !important;}
-.dv-left-side-header > div:first-of-type > h6:first-of-type{font-size: 1rem !important;}
+.dv-left-side-header > div:first-of-type > h6:first-of-type{font-size: 1.1rem !important;}
+.dv-left-side-header > div:first-of-type > h6:last-of-type{font-size: 1.5rem !important;}
+.dv-title-counter{font-size: 1.8rem;}
 
 .dv-button {
     background-color: var(--dark-green);
     color: white;
-    font-weight: bold;
     border: none;
     box-shadow: 0 0 0 0 transparent;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .dv-paragraph-bg-line {
@@ -155,8 +159,4 @@ h2 {font-size: 3vw !important}
         z-index: 1;
         right: 0;
     }
-}
-.dv-title-counter{
-    font-size: 1.8rem;
-    font-weight: bold!important;
 }

@@ -1,55 +1,20 @@
 @font-face {
     font-family: iranyekan;
     font-style: normal;
-    font-weight: 900;
-    src: url('font/eot/iranyekanwebblack.eot');url('font/woff/iranyekanwebblack.woff') format('woff'),url('font/ttf/iranyekanwebblack.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
     font-weight: 700;
-    src: url('font/eot/iranyekanwebbold.eot');url('font/woff/iranyekanwebbold.woff') format('woff'),url('font/ttf/iranyekanwebbold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: 950;
-    src: url('font/eot/iranyekanwebextrablack.eot');url('font/woff/iranyekanwebextrablack.woff') format('woff'),url('font/ttf/iranyekanwebextrablack.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: 800;
-    src: url('font/eot/iranyekanwebextrabold.eot');url('font/woff/iranyekanwebextrabold.woff') format('woff'),url('font/ttf/iranyekanwebextrabold.ttf') format('truetype');
+    src: url("font/iranyekanwebbold.woff");
 }
 
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 300;
-    src: url('font/eot/iranyekanweblight.eot');url('font/woff/iranyekanweblight.woff') format('woff'),url('font/ttf/iranyekanweblight.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: 500;
-    src: url('font/eot/iranyekanwebmedium.eot');url('font/woff/iranyekanwebmedium.woff') format('woff'),url('font/ttf/iranyekanwebmedium.ttf') format('truetype');
+    src: url("font/iranyekanweblight.woff");
 }
 
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 400;
-    src: url('font/eot/iranyekanwebregular.eot');url('font/woff/iranyekanwebregular.woff') format('woff'),url('font/ttf/iranyekanwebregular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: iranyekan;
-    font-style: normal;
-    font-weight: 100;
-    src: url('font/eot/iranyekanwebthin.eot');url('font/woff/iranyekanwebthin.woff') format('woff'),url('font/ttf/iranyekanwebthin.ttf') format('truetype');
+    src: url("font/iranyekanwebregular.woff");
 }
