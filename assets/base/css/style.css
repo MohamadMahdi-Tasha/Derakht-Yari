@@ -16,7 +16,7 @@ button {transition: .3s;cursor: pointer;}
 a {text-decoration: none !important;}
 body {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     font-family: 'iranyekan','YekanBakh', "Roboto Light", Verdana, sans-serif !important;
 }
 
