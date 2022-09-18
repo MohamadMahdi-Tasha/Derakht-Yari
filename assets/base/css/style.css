@@ -36,7 +36,7 @@ body {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;}
 .dv-text-green {color: var(--green);}
 .dv-text-light-green {color: var(--light-green);}
 .dv-text-dark-green {color: var(--dark-green);}
-#loader {transition: .3s;z-index: 1050;}
+#loader {transition: .3s;z-index: 1070;}
 #loader[data-opened='true'] {opacity: 1;pointer-events: visible}
 #loader[data-opened='false'] {opacity: 0;pointer-events: none}
 .dv-bg-green {background-color: var(--green);}
