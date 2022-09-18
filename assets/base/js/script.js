@@ -4,15 +4,11 @@ const swup = new Swup();
 const mobileNavToggler = document.getElementById('mobile-nav-toggler');
 const nav = document.getElementById('right-side');
 const rightSideDarkBg = document.getElementById('right-side-dark-bg');
+const navItems = document.querySelectorAll('.nav-link');
 
 // Adding Event Listener Of Load On Window Which Listens To Load Of Full Page Then Closes Loader Modal
 // window.addEventListener('load', () => loader.setAttribute('data-opened', 'false'))
 setTimeout(() => loader.setAttribute('data-opened', 'false'), 3000)
-
-// Adding '/' Behind Href Of Each Anchor Tag
-// document.querySelectorAll('a').forEach(item => {
-    // item.setAttribute('href',`/${item.href}`)
-// })
 
 // A Function That Toggles Classes To Body And Nav
 function showOrHideNav() {
@@ -24,3 +20,10 @@ function showOrHideNav() {
 mobileNavToggler.addEventListener('click',  showOrHideNav)
 rightSideDarkBg.addEventListener('click', showOrHideNav)
 window.addEventListener('keydown', (event) => {if (event.key === 'Escape') {showOrHideNav()}})
+
+navItems.forEach(
+    (item) => item.addEventListener('click', () => {
+        document.querySelector('.nav-link[aria-current="page"]').removeAttribute('aria-current')
+        item.setAttribute('aria-current', 'page')
+    })
+)
