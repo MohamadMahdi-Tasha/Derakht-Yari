@@ -100,6 +100,9 @@ h2 {font-size: 3vw !important}
     transform: translateX(100%);
 }
 
+.transition-fade {transition: 0.4s;opacity: 1;}  
+html.is-animating .transition-fade {opacity: 0;}
+
 /*Hover, Active, Focus, ...*/
 #right-side .nav-item:not([aria-current="page"]):hover:after {transform: translateX(0%);}
 #ir > g:hover {fill: var(--green) !important}

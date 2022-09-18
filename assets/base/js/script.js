@@ -10,9 +10,9 @@ const rightSideDarkBg = document.getElementById('right-side-dark-bg');
 setTimeout(() => loader.setAttribute('data-opened', 'false'), 3000)
 
 // Adding '/' Behind Href Of Each Anchor Tag
-document.querySelectorAll('a').forEach(item => {
-    item.setAttribute('href',`/${item.href}`)
-})
+// document.querySelectorAll('a').forEach(item => {
+    // item.setAttribute('href',`/${item.href}`)
+// })
 
 // A Function That Toggles Classes To Body And Nav
 function showOrHideNav() {
