@@ -169,7 +169,7 @@ html.is-animating .transition-fade {
         content: '';
         display: none;
     }
-    .dv-middle-top-side.blog, .dv-middle-top-side.gallery {
+    .dv-middle-top-side.blog, .dv-middle-top-side.gallery, .dv-middle-top-side.totorial {
         height: 10rem !important;
     }
     .dv-header-top-side {aspect-ratio: auto;padding: 1rem;}
