@@ -46,11 +46,36 @@ body {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;o
 .dv-middle-top-side > div:first-of-type{background-color: rgba(0,0,0,.4);}
 .dv-left-top-middle-text {transform: rotate(270deg);transform-origin: left;}
 .dv-paragraph-holder {height: 20vh;direction: ltr !important;}
-.dv-paragraph-holder::-webkit-scrollbar {background-color: unset;width: 3px;}
-.dv-paragraph-holder::-webkit-scrollbar-thumb {background-color: white;}
-.dv-paragraph-holder::-webkit-scrollbar-track {width: 5px !important;}
+.dv-paragraph-holder::-webkit-scrollbar, .dv-right-bottom-side-items-holder::-webkit-scrollbar {background-color: unset;width: 3px;}
+.dv-paragraph-holder::-webkit-scrollbar-thumb, .dv-right-bottom-side-items-holder::-webkit-scrollbar-thumb {background-color: white;}
+.dv-paragraph-holder::-webkit-scrollbar-track, .dv-right-bottom-side-items-holder::-webkit-scrollbar-track {width: 5px !important;}
 .dv-paragraph {font-size: .7rem !important;font-weight: light;}
-.dv-paragraph-with-collapse {font-size: 1rem !important;font-weight: light;}
+.dv-paragraph-with-collapse {font-size: .8rem !important;font-weight: light;}
+.dv-right-bottom-side-items-holder {height: 30vh;}
+input::placeholder, textarea::placeholder {color: white;}
+form textarea {resize: none !important}
+form textarea::-webkit-scrollbar {
+    display: none;
+}
+form button:first-of-type {
+    transform: rotate(270deg);
+    transform-origin: center;
+    height: 50px;
+    width: 50px;
+}
+.dv-title-of-comment-send::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 100%;
+    height: 1px;
+    transform: translateX(110%);
+    background-color: #000;
+    z-index: 0;
+}
+.dv-send-comment-holder {border: 1px solid white;}
+.dv-image-send-profile {transform: scale(1.25);transform-origin: center;z-index: 1;}
 #ir > g{stroke: white;stroke-width: 1px;cursor: pointer;transition: .3s}
 #ir > g:not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman){fill: lightgrey}
 #ir > g:is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {fill: #bababa;}
@@ -59,6 +84,9 @@ h4 {font-size: 2vw !important;}
 h5 {font-size: 1.25vw !important;}
 h6 {font-size: 1.2vw !important;}
 .dv-left-side-section footer h6 {font-size: 0.6rem!important}
+.dv-object-fit {object-fit: cover;}
+.dv-profile-image {border: 2px solid white;}
+.dv-divider {height: 50px;border-left: 1px solid #fff;}
 .left-0 {left: 0;}
 .dv-donate-holder {transform: translateX(-50%);bottom: 2rem;z-index: 1050;}
 .dv-donate-holder > span{width: 10vw;}
