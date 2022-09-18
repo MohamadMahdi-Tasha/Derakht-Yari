@@ -99,7 +99,8 @@ h2 {font-size: 3vw !important}
 .dv-left-side-header > div:first-of-type > h6:last-of-type{font-size: 1.5rem !important;}
 .dv-title-counter{font-size: 1.8rem;}
 .dv-squar-border {border: 1px solid white;}
-.dv-left-side-section-item {background-color: var(--green);color: black;transition: .3s;height: 18vh;overflow: hidden;}
+.dv-left-side-section-item {background-color: var(--green);transition: .3s;height: 18vh;overflow: hidden;}
+.dv-left-side-section-item > a {color: black;transition: .3s;}
 .dv-border-white-btn {
     border: 1px solid white;
     background-color: unset;
@@ -152,7 +153,8 @@ html.is-animating .transition-fade {
 #ir > g:hover {fill: var(--green) !important}
 .dv-button:is(:hover, :active, :focus) {border-radius: 20px 0;}
 .dv-border-white-btn:is(:hover, :active, :focus) {background-color: #fff;color: var(--green);}
-.dv-left-side-section-item:is(:hover, :active, :focus) {background-color: #2f2f2f;color:white;}
+.dv-left-side-section-item:is(:hover, :active, :focus) {background-color: #2f2f2f;}
+.dv-left-side-section-item:is(:hover, :active, :focus) > a {color: white;}
 
 /*Animations*/
 @keyframes loader-icon { from {opacity: 0;transform: translateY(-100%);} to {opacity: 1;transform: translateY(0)} }
