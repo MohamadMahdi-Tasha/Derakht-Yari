@@ -29,6 +29,7 @@ body {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;}
 #right-side .nav-link {font-size: .7rem !important;margin-bottom: 5px;}
 #right-side > ul {height: 81.6%;}
 .dv-inset-0 {inset: 0;}
+.nav-link[aria-current="page"]::after {content: '';position: absolute;width: 100%;bottom: 0;right: 0;height: 2px;background-color: lightgrey;}
 .dv-loader-modal-icon {animation: loader-icon .7s ease-in-out;}
 .dv-loader-content {animation: loader-content 1.4s ease-in-out}
 .dv-title-middle-side > span:first-of-type {font-size: 4vw;}
@@ -87,7 +88,7 @@ h2 {font-size: 3vw !important}
     right: 0;
 }
 
-#right-side .nav-item:after {
+#right-side .nav-item:not([aria-current="page"]):after {
     content: '';
     transition: .5s;
     position: absolute;
@@ -100,7 +101,7 @@ h2 {font-size: 3vw !important}
 }
 
 /*Hover, Active, Focus, ...*/
-#right-side .nav-item:hover:after {transform: translateX(0%);}
+#right-side .nav-item:not([aria-current="page"]):hover:after {transform: translateX(0%);}
 #ir > g:hover {fill: var(--green) !important}
 .dv-button:is(:hover, :active, :focus) {border-radius: 20px 0;}
 
