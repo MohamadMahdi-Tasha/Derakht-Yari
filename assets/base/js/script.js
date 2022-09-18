@@ -5,6 +5,7 @@ const mobileNavToggler = document.getElementById('mobile-nav-toggler');
 const nav = document.getElementById('right-side');
 const rightSideDarkBg = document.getElementById('right-side-dark-bg');
 const navItems = document.querySelectorAll('.nav-link');
+const paragraphWithCollapse = document.querySelectorAll('.dv-paragraph-with-collapse')
 
 // Adding Event Listener Of Load On Window Which Listens To Load Of Full Page Then Closes Loader Modal
 // window.addEventListener('load', () => loader.setAttribute('data-opened', 'false'))
@@ -27,3 +28,9 @@ navItems.forEach(
         item.setAttribute('aria-current', 'page')
     })
 )
+
+paragraphWithCollapse.forEach((item) => {
+    if (item.textContent.length > 200) {
+        item.textContent = `${item.textContent.slice(0, 200)}[...]`
+    }
+})

@@ -49,7 +49,8 @@ body {font-family: 'YekanBakh', "Roboto Light", Verdana, sans-serif !important;o
 .dv-paragraph-holder::-webkit-scrollbar {background-color: unset;width: 3px;}
 .dv-paragraph-holder::-webkit-scrollbar-thumb {background-color: white;}
 .dv-paragraph-holder::-webkit-scrollbar-track {width: 5px !important;}
-.dv-paragraph {font-size: .7rem !important;font-weight: lighter;}
+.dv-paragraph {font-size: .7rem !important;font-weight: light;}
+.dv-paragraph-with-collapse {font-size: 1rem !important;font-weight: light;}
 #ir > g{stroke: white;stroke-width: 1px;cursor: pointer;transition: .3s}
 #ir > g:not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman){fill: lightgrey}
 #ir > g:is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {fill: #bababa;}
@@ -69,6 +70,12 @@ h2 {font-size: 3vw !important}
 .dv-left-side-header > div:first-of-type > h6:first-of-type{font-size: 1.1rem !important;}
 .dv-left-side-header > div:first-of-type > h6:last-of-type{font-size: 1.5rem !important;}
 .dv-title-counter{font-size: 1.8rem;}
+.dv-squar-border {border: 1px solid white;}
+.dv-border-white-btn {
+    border: 1px solid white;
+    background-color: unset;
+    color: white;
+}
 
 .dv-button {
     background-color: var(--dark-green);
@@ -115,6 +122,7 @@ html.is-animating .transition-fade {
 #right-side .nav-item:not([aria-current="page"]):hover:after {transform: translateX(0%);}
 #ir > g:hover {fill: var(--green) !important}
 .dv-button:is(:hover, :active, :focus) {border-radius: 20px 0;}
+.dv-border-white-btn:is(:hover, :active, :focus) {background-color: #fff;color: var(--green);}
 
 /*Animations*/
 @keyframes loader-icon { from {opacity: 0;transform: translateY(-100%);} to {opacity: 1;transform: translateY(0)} }
