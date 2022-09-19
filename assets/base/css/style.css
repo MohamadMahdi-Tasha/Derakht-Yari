@@ -395,6 +395,12 @@ html.is-animating .transition-fade {
 
 /*Media Query's*/
 @media (max-width: 991px) {
+  .dv-gallery-images-left-main {
+    height: 100vh;
+  }
+  .dv-gallery-images-left-main-bg-line {
+    transform: translateX(-1300%) !important;
+  }
   #dv-pdf {
     height: 100vh;
   }
