@@ -64,6 +64,49 @@ body {
   font-size: 0.7rem !important;
   margin-bottom: 5px;
 }
+
+.dv-ir-map-items-name {
+  background-color: var(--darkest-green);
+  color: white;
+  position: absolute;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  pointer-events: none;
+  animation: opacity-fade 0.3s ease-in-out;
+  text-align: center;
+}
+
+.dv-ir-map-items-name::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateY(100%) translateX(50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--darkest-green);
+}
+
+.dv-modal-holder[data-opened="false"] {
+  display: none;
+  animation: scale-fade reverse 0.3s ease-in-out;
+}
+.dv-modal-holder[data-opened="true"] {
+  display: flex;
+  animation: scale-fade 0.3s ease-in-out;
+}
+.dv-modal-holder {
+  z-index: 1060;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dv-modal {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
 #right-side > ul {
   height: 81.6%;
 }
@@ -203,18 +246,18 @@ form button:first-of-type {
   transform-origin: center;
   z-index: 1;
 }
-#ir > g {
+#ir > g:not(:first-of-type) {
   stroke: white;
   stroke-width: 1px;
   cursor: pointer;
   transition: 0.3s;
 }
 #ir
-  > g:not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {
+  > g:not(:first-of-type):not(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {
   fill: lightgrey;
 }
 #ir
-  > g:is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {
+  > g:not(:first-of-type):is(#azarbaijan-sh, #mazandaran, #golestan, #khorasan-r, #kordestan, #hamedan, #esfahan, #khozestan, #fars, #kerman) {
   fill: #bababa;
 }
 .dv-text-grey {
@@ -343,7 +386,7 @@ html.is-animating .transition-fade {
 #right-side .nav-item:not([aria-current="page"]):hover:after {
   transform: translateX(0%);
 }
-#ir > g:hover {
+#ir > g:not(:first-of-type):hover {
   fill: var(--green) !important;
 }
 .dv-button:is(:hover, :active, :focus) {
@@ -379,6 +422,26 @@ html.is-animating .transition-fade {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes opacity-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-fade {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 

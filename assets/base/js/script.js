@@ -46,3 +46,62 @@ paragraphWithCollapse.forEach((item) => {
     item.textContent = `${item.textContent.slice(0, 200)}[...]`;
   }
 });
+
+function svgMapCitys() {
+  document.querySelectorAll("#ir > g").forEach((item) => {
+    if (item.getAttribute("data-fa-name") !== null) {
+      if (window.innerWidth > 991) {
+        item.addEventListener("mouseover", () => {
+          const newSpan = document.createElement("span");
+          const itemRect = item.getClientRects()[0];
+
+          newSpan.className = "dv-ir-map-items-name";
+          newSpan.style.top = `${itemRect.top}px`;
+          newSpan.style.left = `${itemRect.left}px`;
+          newSpan.innerHTML = `
+            ${item.getAttribute("data-fa-name")} 
+            <br>
+            تعداد خانوار : ${200}
+          `;
+
+          item.parentElement.parentElement.parentElement.appendChild(newSpan);
+        });
+
+        item.addEventListener("mouseout", () => {
+          document.querySelector(".dv-ir-map-items-name").remove();
+        });
+      } else {
+        item.addEventListener("click", () => {
+          const newModalHolder = document.createElement("div");
+          const newModal = document.createElement("div");
+          const contentSpan = document.createElement("span");
+
+          newModalHolder.className =
+            "dv-modal-holder position-fixed justify-content-center align-items-center p-3 dv-inset-0";
+          newModal.className = "dv-modal bg-white p-3 rounded-3 text-center";
+          newModalHolder.setAttribute("data-opened", "true");
+
+          newModalHolder.addEventListener("click", () => {
+            document.body.classList.remove("overflow-hidden");
+            newModalHolder.setAttribute("data-opened", "false");
+          });
+
+          contentSpan.innerHTML = `
+            ${item.getAttribute("data-fa-name")}
+            <br>
+            تعداد خانوار : ${200}
+          `;
+
+          document.body.classList.add("overflow-hidden");
+
+          newModalHolder.appendChild(newModal);
+          newModal.appendChild(contentSpan);
+          document.getElementById("modals-holder").appendChild(newModalHolder);
+        });
+      }
+    }
+  });
+}
+
+window.onload = () => svgMapCitys();
+window.onresize = () => svgMapCitys();
