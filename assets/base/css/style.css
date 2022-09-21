@@ -358,6 +358,9 @@ h2 {
   font-size: 15px;
 }
 
+.dv-paragraph-bg-line.no-transform {
+  transform: translateX(-100%) !important;
+}
 .dv-paragraph-bg-line {
   background-color: white;
   width: 1px;
