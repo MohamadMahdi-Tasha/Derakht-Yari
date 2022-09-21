@@ -607,4 +607,8 @@ html.is-animating .transition-fade {
     z-index: 1;
     right: 0;
   }
+
+  .dv-images-left-side-holder-main .dv-paragraph-bg-line {
+    display: none;
+  }
 }
