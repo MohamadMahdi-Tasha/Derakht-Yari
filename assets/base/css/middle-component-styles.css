@@ -46,7 +46,7 @@
 .middle-paragraph-holder::-webkit-scrollbar {
     width: .2vw;
     overflow: visible;
-    background-image: url('../../img/img-scrollbar-bg.png');
+    background-image: url('../img/img-scrollbar-bg.png');
     background-size: contain;
 }
 
