@@ -9,7 +9,7 @@ class MainHeaderComponent extends HTMLElement {
                     <h2 class="main-header-title text-center fw-bold text-nowrap text-emerald">تلاش برای کاشت ۱۵۰۰ نهال مثمر</h2>
                     <h3 class="main-header-subtitle mb-0 text-center fw-light text-nowrap text-emerald">
                         یاری مردم
-                        <span class="main-header-subtitle-divider">|</span>
+                        <span class="text-yellow-green">|</span>
                         لبخند طبیعت
                     </h3>
                 </div>

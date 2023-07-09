@@ -10,6 +10,7 @@
     --light-grey-color: #cbc4be;
     --dark-map-grey: #A3A8A2;
     --light-map-grey: #B5BAB4;
+    --yelow-green: #C7DB46;
 }
 
 /*Styles*/
@@ -19,11 +20,13 @@ body {font-family: var(--font) !important;}
 .text-theme {color: var(--theme-color);}
 .text-emerald {color: var(--emerald);}
 .text-dark-grey {color: var(--dark-grey-color);}
+.text-yellow-green {color: var(--yelow-green);}
 
 .bg-theme {background-color: var(--theme-color);}
 .bg-grey {background-color: var(--grey-color);}
 .bg-emerald {background-color: var(--emerald);}
 .bg-dark-grey {background-color: var(--dark-grey-color);}
+.bg-yellow-green {background-color: var(--yelow-green);}
 
 .fw-extrabold {font-weight: 800;}
 .fw-black {font-weight: 900;}
