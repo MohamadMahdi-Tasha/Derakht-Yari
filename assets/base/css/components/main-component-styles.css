@@ -9,6 +9,7 @@
 #ir > g:not(#esfahan,#fars,#golestan,#mazandaran,#khozestan,#hamedan,#azarbaijan-sh,#kordestan,#khorasan-r,#kerman) {fill: var(--light-map-grey);}
 #esfahan, #fars, #golestan, #mazandaran, #khozestan, #hamedan, #azarbaijan-sh, #kordestan, #khorasan-r, #kerman {fill: var(--dark-map-grey);}
 .iran-svg-component {width: 75%;}
+.main-header-subtitle {font-size: 1.7vw;}
 
 .main-header {
     gap: 2vw;
