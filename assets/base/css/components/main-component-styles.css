@@ -1,3 +1,4 @@
+/*Styles*/
 .middle-main-title > span:first-of-type{font-size: 3vw !important;}
 .middle-main-title > span:last-of-type{font-size: 3.35vw !important;}
 .middle-section {width: 40vw;}
@@ -6,11 +7,15 @@
 .middle-paragraph {font-size: 1vw;}
 .middle-social-icon {width: 1.5vw;}
 .middle-socials {gap: 1vw;width: auto;}
-.middle-paragraph-holder {padding-right: 2vw;}
 .middle-top-holder {padding: 3vw;}
 .middle-header {height: 20vw;}
 .middle-main-title.mb-0 {margin-right: 2vw;}
 .middle-title-holder, .middle-paragraph-holder {height: 50% !important;}
+
+.middle-paragraph-holder {
+    padding-right: 2vw;
+    width: 80%;
+}
 
 .middle-main {
     height: 27vw;
@@ -46,10 +51,15 @@
     .middle-section {width: 100%;}
     .middle-main {height: auto;}
     .middle-social-icon {width: 25px;}
-    .middle-paragraph-holder {height: 150px !important;margin-bottom: 20px;}
     .middle-paragraph {font-size: 12px;}
     .middle-main-title > span:is(:first-of-type, :last-of-type){font-size: 23px !important;}
     .middle-paragraph-holder::-webkit-scrollbar {width: 3px;}
+
+    .middle-paragraph-holder {
+        height: 150px !important;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 
     .middle-title {
         font-size: 23px;

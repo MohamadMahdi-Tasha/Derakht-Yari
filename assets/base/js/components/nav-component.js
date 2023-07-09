@@ -12,12 +12,12 @@ class NavComponent extends HTMLElement {
                 </a>
                 <div class="bg-white d-lg-flex d-none align-items-center justify-content-center overflow-y-auto overflow-x-hidden nav-inner">
                     <ul class="d-flex align-items-center list-unstyled nav-links-holder p-0 m-0">
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">خانه</a></li>
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">درباره ما</a></li>
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">بلاگ</a></li>
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">اموزش</a></li>
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">تماس با ما</a></li>
-                        <li><a class="text-nowrap position-relative text-black nav-link" href="#">گالری تصویر</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">خانه</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">درباره ما</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">بلاگ</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">اموزش</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">تماس با ما</a></li>
+                        <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="#">گالری تصویر</a></li>
                     </ul>
                 </div>
             </nav>

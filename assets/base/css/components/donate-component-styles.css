@@ -1,0 +1,29 @@
+/*Styles*/
+.donate-item > span {font-size: 1.15vw;}
+.donate-section {
+    position: fixed;
+    bottom: 3vw;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.donate-item {
+    width: 10vw;
+    padding-block: .5vw;
+}
+
+/*Media Query's*/
+@media (max-width: 991px) {
+    .donate-item > span {font-size: 18px;}
+
+    .donate-item {
+        width: auto;
+        padding-inline: 30px;
+        padding-block: 10px;
+    }
+
+    .donate-section {
+        position: static;
+        transform: translateX(0);
+    }
+}
