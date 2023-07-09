@@ -12,3 +12,5 @@
 body {font-family: var(--font) !important;}
 .bg-theme {background-color: var(--theme-color);}
 .bg-grey {background-color: var(--grey-color);}
+.fw-extrabold {font-weight: 800;}
+.fw-black {font-weight: 900;}

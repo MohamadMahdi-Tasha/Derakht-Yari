@@ -1,0 +1,59 @@
+.middle-main-title > span:first-of-type{font-size: 3vw !important;}
+.middle-main-title > span:last-of-type{font-size: 3.35vw !important;}
+.middle-section {width: 40vw;}
+.middle-header {height: 40vh;}
+.middle-arrow-icon {width: 5vw;}
+
+.middle-main {
+    height: 60vh;
+    padding: 3vw;
+}
+
+.middle-title {
+    font-size: 1.65vw;
+    line-height: 4.5vh;
+}
+
+.middle-top-holder {
+    background-color: rgba(0,0,0,.2);
+    padding: 3vw;
+}
+
+.middle-cta {
+    font-size: 1vw;
+    transform: rotate(-90deg);
+    transform-origin: left center;
+}
+
+.middle-main-title {
+    margin-bottom: 5vh;
+    margin-right: 2vw;
+}
+
+.middle-socials {
+    gap: 2vh;
+}
+
+.middle-paragraph-holder {
+    padding-right: 2vw;
+}
+
+.middle-paragraph-holder::-webkit-scrollbar {
+    width: .2vw;
+    overflow: visible;
+    background-image: url('../../img/img-scrollbar-bg.png');
+    background-size: contain;
+}
+
+.middle-paragraph-holder::-webkit-scrollbar-thumb {
+    background-color: white;
+    width: 10px;
+}
+
+.middle-paragraph {
+    font-size: 1vw;
+}
+
+.middle-social-icon {
+    width: 1.5vw;
+}
