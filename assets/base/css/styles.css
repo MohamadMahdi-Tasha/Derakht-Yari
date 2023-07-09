@@ -1,6 +1,5 @@
 /*Variables*/
 :root {
-    --font: yekanbakh, sans-serif;
     --theme-color: #60725A;
     --emerald: #077D41;
 
@@ -14,7 +13,7 @@
 }
 
 /*Styles*/
-body {font-family: var(--font) !important;}
+body {font-family: yekanbakh, sans-serif !important;}
 
 .text-grey {color: var(--grey-color);}
 .text-theme {color: var(--theme-color);}
