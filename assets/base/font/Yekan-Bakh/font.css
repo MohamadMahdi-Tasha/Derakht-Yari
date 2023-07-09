@@ -1,0 +1,42 @@
+/*Declaring Font*/
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 900;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-Black.woff");
+}
+
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 700;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-bold.woff");
+}
+
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 800;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-ExtraBold.woff");
+}
+
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 300;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-light.woff");
+}
+
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 500;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-Regular.woff");
+}
+
+@font-face {
+    font-family: 'Yekan-Bakh';
+    font-weight: 600;
+    font-style: normal;
+    src: url("./font/YekanBakhFaNum-SemiBold.woff");
+}
