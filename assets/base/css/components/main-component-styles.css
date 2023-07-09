@@ -1,0 +1,33 @@
+/*Styles*/
+.main-header-logo {width: 10vw;}
+.main-header-subtitle {font-size: 2vw;}
+.main-section-left {gap: 1vw;}
+.main-number {font-size: 1.5vw;}
+.main-title {font-size: 1.25vw;}
+.copy-text {font-size: 1vw !important;}
+#ir > g {cursor: pointer;}
+#ir > g:not(#esfahan,#fars,#golestan,#mazandaran,#khozestan,#hamedan,#azarbaijan-sh,#kordestan,#khorasan-r,#kerman) {fill: var(--light-map-grey);}
+#esfahan, #fars, #golestan, #mazandaran, #khozestan, #hamedan, #azarbaijan-sh, #kordestan, #khorasan-r, #kerman {fill: var(--dark-map-grey);}
+.main-header-subtitle {font-size: 1.7vw;}
+
+.main-header {
+    gap: 2vw;
+    margin-bottom: 4vw;
+}
+
+.main-section {
+    width: 50vw;
+    height: 100vh;
+    padding: 2vw;
+}
+
+.main-header-title {
+    font-size: 1.3vw;
+    margin-bottom: .5vw !important;
+}
+
+.main-header-btn {
+    padding-inline: 2vw;
+    padding-block: 1vw;
+    font-size: 1vw;
+}

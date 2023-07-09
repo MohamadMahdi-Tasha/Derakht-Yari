@@ -2,16 +2,28 @@
 :root {
     --font: 'Yekan-Bakh', sans-serif;
     --theme-color: #60725A;
+    --emerald: #077D41;
 
     --lg-size: 991px;
     --grey-color: #898480;
+    --dark-grey-color: #7A7A7A;
     --light-grey-color: #cbc4be;
+    --dark-map-grey: #A3A8A2;
+    --light-map-grey: #B5BAB4;
 }
 
 /*Styles*/
 body {font-family: var(--font) !important;}
+
+.text-grey {color: var(--grey-color);}
+.text-theme {color: var(--theme-color);}
+.text-emerald {color: var(--emerald);}
+.text-dark-grey {color: var(--dark-grey-color);}
+
 .bg-theme {background-color: var(--theme-color);}
 .bg-grey {background-color: var(--grey-color);}
+.bg-emerald {background-color: var(--emerald);}
+.bg-dark-grey {background-color: var(--dark-grey-color);}
+
 .fw-extrabold {font-weight: 800;}
 .fw-black {font-weight: 900;}
-.text-theme {color: var(--theme-color);}
