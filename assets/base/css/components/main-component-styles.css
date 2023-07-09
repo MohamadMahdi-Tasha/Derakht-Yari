@@ -9,6 +9,7 @@
 #ir > g:not(#esfahan,#fars,#golestan,#mazandaran,#khozestan,#hamedan,#azarbaijan-sh,#kordestan,#khorasan-r,#kerman) {fill: var(--light-map-grey);}
 #esfahan, #fars, #golestan, #mazandaran, #khozestan, #hamedan, #azarbaijan-sh, #kordestan, #khorasan-r, #kerman {fill: var(--dark-map-grey);}
 .main-header-subtitle {font-size: 1.7vw;}
+#iran-svg {width: 75%;}
 
 .main-header {
     gap: 2vw;
@@ -30,4 +31,41 @@
     padding-inline: 2vw;
     padding-block: 1vw;
     font-size: 1vw;
+}
+
+/*Media Querys*/
+@media (max-width: 991px) {
+    .main-section {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .main-header-logo {
+        width: 20%;
+    }
+
+    .main-header-btn {
+        font-size: 15px;
+        padding-inline: 20px;
+        padding-block: 8px;
+    }
+
+    #iran-svg {
+        width: 100%;
+    }
+
+    .main-section-left {
+        gap: 20px;
+    }
+
+    .main-number, .main-title  {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .copy-text {
+        font-size: 17px !important;
+        margin-top: 25px;
+    }
 }
