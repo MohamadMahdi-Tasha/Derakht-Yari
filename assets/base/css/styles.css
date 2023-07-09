@@ -2,8 +2,13 @@
 :root {
     --font: 'Yekan-Bakh', sans-serif;
     --theme-color: #60725A;
+
+    --lg-size: 991px;
+    --grey-color: #898480;
+    --light-grey-color: #cbc4be;
 }
 
 /*Styles*/
 body {font-family: var(--font) !important;}
 .bg-theme {background-color: var(--theme-color);}
+.bg-grey {background-color: var(--grey-color);}
