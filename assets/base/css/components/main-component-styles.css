@@ -8,6 +8,7 @@
 .middle-social-icon {width: 1.5vw;}
 .middle-socials {gap: 2vh;}
 .middle-paragraph-holder {padding-right: 2vw;}
+.middle-top-holder {padding: 3vw;}
 
 .middle-main {
     height: 60vh;
@@ -19,9 +20,10 @@
     line-height: 4.5vh;
 }
 
-.middle-top-holder {
-    background-color: rgba(0,0,0,.2);
-    padding: 3vw;
+.middle-top-bg {
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    left: 0;
 }
 
 .middle-cta {
