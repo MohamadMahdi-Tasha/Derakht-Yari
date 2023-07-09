@@ -44,10 +44,11 @@
 }
 
 .middle-paragraph-holder::-webkit-scrollbar {
-    width: .2vw;
+    width: .3vw;
     overflow: visible;
     background-image: url('../img/img-scrollbar-bg.png');
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 /*Media Query's*/
