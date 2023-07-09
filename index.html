@@ -21,25 +21,31 @@
     <!--Linking CSS Files-->
     <link rel="stylesheet" href="assets/base/fonts/Yekan-Bakh/font.css">
     <link rel="stylesheet" href="assets/base/css/styles.css">
+    <link rel="stylesheet" href="assets/base/css/nav-styles.css">
     <link rel="stylesheet" href="assets/plugins/bootstrap/bootstrap.min.css">
     <!--Title Of Page-->
     <title>درخت یاری - خانه</title>
 </head>
-<body dir="rtl">
+<body dir="rtl" class="d-flex min-vh-100">
 <!--Nav Of Page (Right Side)-->
 <nav>
-    <div>
-        <img src="assets/base/img/img-logo.png" alt="لوگوی درخت یاری">
+    <a href="#" class="nav-logo-holder d-flex justify-content-center align-items-center">
+        <img class="w-50" src="assets/base/img/img-logo.png" alt="لوگوی درخت یاری">
+    </a>
+    <div  class="bg-white d-flex align-items-center justify-content-center overflow-y-auto overflow-x-hidden nav-inner">
+        <ul class="d-flex align-items-center list-unstyled nav-links-holder p-0 m-0">
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">خانه</a></li>
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">درباره ما</a></li>
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">بلاگ</a></li>
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">اموزش</a></li>
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">تماس با ما</a></li>
+            <li><a class="text-nowrap position-relative text-black nav-link" href="#">گالری تصویر</a></li>
+        </ul>
     </div>
-    <ul>
-        <li><a href="#">خانه</a></li>
-        <li><a href="#">درباره ما</a></li>
-        <li><a href="#">بلاگ</a></li>
-        <li><a href="#">اموزش</a></li>
-        <li><a href="#">تماس با ما</a></li>
-        <li><a href="#">گالری تصویر</a></li>
-    </ul>
 </nav>
+
+<div style="width: 40vw" class="bg-theme">1</div>
+<div style="width: 50vw" class="bg-warning">2s</div>
 <!--Linking Javascript Files-->
 <script src="assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
 </body>

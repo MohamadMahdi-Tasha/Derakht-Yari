@@ -1,3 +1,9 @@
-body {
-    font-family: 'Yekan-Bakh', sans-serif !important;
+/*Variables*/
+:root {
+    --font: 'Yekan-Bakh', sans-serif;
+    --theme-color: #60725A;
 }
+
+/*Styles*/
+body {font-family: var(--font) !important;}
+.bg-theme {background-color: var(--theme-color);}
