@@ -12,6 +12,9 @@
 .main-header-subtitle {font-size: 1.7vw;}
 .main-big-title {font-size: 2vw;}
 .main-subtitle {font-size: 1.6vw;}
+.negar-item:hover > :is(.negar-bg, .negar-border){opacity: 1;}
+.negar-bg {background-color: rgba(0, 0, 0, .2);}
+.negar-item {height: 10vw;}
 
 .main-section-left-contact {
     padding-bottom: 7vw;
@@ -67,16 +70,19 @@
     transition: .3s
 }
 
-.negar-item:hover > :is(.negar-bg, .negar-border){opacity: 1;}
-.negar-bg {background-color: rgba(0, 0, 0, .2);}
-.negar-item {height: 10vw;}
-
 /*Media Query's*/
 @media (max-width: 991px) {
     .main-header-logo {width: 20%;}
     .iran-svg-component {width: 100%;}
     .main-section-left {gap: 20px;}
-
+    .main-section-left-contact {padding-bottom: 0;}
+    .main-big-title {font-size: 32px;}
+    .main-subtitle {font-size: 32px;}
+    .main-section-left-contact {width: 100%;}
+    .negar-item {height: 300px;}
+    .main-holder-scroller {height: 50vh;}
+    .negar-items-holder {grid-template-columns: repeat(1, 1fr);}
+    .main-holder-scroller::-webkit-scrollbar {width: 5px;}
     .main-section {
         width: 100%;
         height: auto;
@@ -98,9 +104,4 @@
         font-size: 17px !important;
         margin-top: 25px;
     }
-
-    .main-section-left-contact {padding-bottom: 0;}
-    .main-big-title {font-size: 32px;}
-    .main-subtitle {font-size: 32px;}
-    .main-section-left-contact {width: 100%;}
 }
