@@ -11,6 +11,13 @@
 .middle-main-title {margin-right: 0;margin-bottom: 1.5vw;}
 .middle-main-title-btns-holder {margin-bottom: 1.5vw;}
 .middle-title-holder, .middle-paragraph-holder {height: 50% !important;}
+.middle-btns-holder {gap: .5vw;}
+.middle-comment-name, .middle-comment-lastname, .middle-comment-paragraph  {font-size: 1vw !important;}
+.middle-form-holder {margin-left: 5vw;}
+.middle-comment-holder {gap: 1vw;}
+.middle-blogs-holder {gap: 2vw;}
+.middle-comment-name, .middle-comment-lastname {font-size: 1vw !important;}
+.middle-form-name, .middle-form-lastname{font-size: 1vw !important;}
 
 .middle-section {
     width: 40vw;
@@ -51,6 +58,63 @@
     background-image: url('../img/img-scrollbar-white-bg.png');
     background-size: cover;
     background-position: center;
+}
+
+.middle-btn {
+    width: 2vw;
+    height: 2vw;
+}
+
+.middle-btn {
+    color: white;
+    background-color: unset;
+    transition: .3s;
+}
+
+.middle-btn:hover  {
+    background-color: white;
+    color: black;
+}
+
+.middle-comment-img {
+    width: 4vw;
+    height: 4vw;
+    margin-left: 1vw;
+}
+
+.middle-comment-content-holder {
+    margin-left: 1vw;
+    padding-left: 1vw;
+    border-left: 1px solid black;
+}
+
+.middle-form-img {
+    width: 5vw;
+    height: 5vw;
+    margin-inline: 1vw;
+    transform: scale(1.25);
+}
+
+.middle-form-input {
+    resize: none;
+    padding: 1vw;
+    font-size: 1vw;
+    outline: none;
+}
+
+.middle-form-input::placeholder {
+    color: white;
+    font-size: .7vw;
+}
+
+.middle-form-content {
+    border-left: 1px solid black;
+    padding-left: 1vw;
+}
+
+.middle-form-send > span {
+    font-size: 1vw;
+    transform: rotate(-90deg);
 }
 
 /*Media Query's*/

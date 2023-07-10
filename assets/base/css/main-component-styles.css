@@ -15,6 +15,14 @@
 .negar-item:hover > :is(.negar-bg, .negar-border){opacity: 1;}
 .negar-bg {background-color: rgba(0, 0, 0, .2);}
 .negar-item {height: 10vw;}
+.blog-content {padding: 2vw;}
+.main-blog-holder > ul {gap: 2vw !important;}
+.blog-paragraph {font-size: 1vw !important;}
+
+.main-blog-holder {
+    height: 30vw !important;
+    margin-bottom: 3vw;
+}
 
 .main-section-left-contact {
     padding-bottom: 7vw;
@@ -49,14 +57,14 @@
     padding-right: 2vw;
 }
 
-.main-holder-scroller::-webkit-scrollbar {
+:is(.main-holder-scroller, .main-blog-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/img-scrollbar-black-bg.png');
     background-size: cover;
     background-position: center center;
 }
 
-.main-holder-scroller::-webkit-scrollbar-thumb {
+:is(.main-holder-scroller, .main-blog-holder)::-webkit-scrollbar-thumb {
     background-color: black;
 }
 
@@ -68,6 +76,16 @@
 .negar-border, .negar-bg {
     opacity: 0;
     transition: .3s
+}
+
+.blog-title {
+    font-size: 2vw;
+    margin-bottom: 1vw !important;
+}
+
+.main-blog-holder {
+    height: 32vw;
+    padding-right: 2vw;
 }
 
 /*Media Query's*/
