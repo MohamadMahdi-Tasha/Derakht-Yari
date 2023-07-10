@@ -40,6 +40,37 @@
     font-size: 1vw;
 }
 
+.main-holder-scroller {
+    height: 30vw;
+    margin-bottom: 2vw;
+    padding-right: 2vw;
+}
+
+.main-holder-scroller::-webkit-scrollbar {
+    width: .3vw;
+    background-image: url('../img/img-scrollbar-black-bg.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-holder-scroller::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+.negar-items-holder {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+}
+
+.negar-border, .negar-bg {
+    opacity: 0;
+    transition: .3s
+}
+
+.negar-item:hover > :is(.negar-bg, .negar-border){opacity: 1;}
+.negar-bg {background-color: rgba(0, 0, 0, .2);}
+.negar-item {height: 10vw;}
+
 /*Media Query's*/
 @media (max-width: 991px) {
     .main-header-logo {width: 20%;}
