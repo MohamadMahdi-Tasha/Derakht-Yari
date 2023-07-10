@@ -2,13 +2,14 @@
 .middle-main-title > span:first-of-type{font-size: 3vw !important;}
 .middle-main-title > span:last-of-type{font-size: 3.35vw !important;}
 .middle-arrow-icon {width: 5vw;}
-.middle-paragraph-holder::-webkit-scrollbar-thumb {background-color: white;}
+:is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar-thumb {background-color: white;}
 .middle-paragraph {font-size: 1vw;}
 .middle-social-icon {width: 1.5vw;}
 .middle-socials {gap: 1vw;width: auto;}
 .middle-top-holder {padding: 3vw;}
 .middle-header {height: 20vw;}
-.middle-main-title.mb-0 {margin-right: 2vw;}
+.middle-main-title {margin-right: 0;margin-bottom: 1.5vw;}
+.middle-main-title-btns-holder {margin-bottom: 1.5vw;}
 .middle-title-holder, .middle-paragraph-holder {height: 50% !important;}
 
 .middle-section {
@@ -16,7 +17,8 @@
     height: 100vh;
 }
 
-.middle-paragraph-holder {
+.middle-paragraph-holder,
+.middle-scroll-holder{
     padding-right: 2vw;
     width: 80%;
 }
@@ -24,6 +26,7 @@
 .middle-main {
     height: 27vw;
     padding: 3vw;
+    gap: 2vw;
 }
 
 .middle-title {
@@ -43,7 +46,7 @@
     transform-origin: left center;
 }
 
-.middle-paragraph-holder::-webkit-scrollbar {
+:is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/img-scrollbar-white-bg.png');
     background-size: cover;
@@ -56,8 +59,8 @@
     .middle-social-icon {width: 25px;}
     .middle-paragraph {font-size: 17px;}
     .middle-main-title > span:is(:first-of-type, :last-of-type){font-size: 32px !important;}
-    .middle-paragraph-holder::-webkit-scrollbar {width: 5px;}
-
+    :is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar {width: 5px;}
+    .middle-main {gap: 0;}
     .middle-section {
         width: 100%;
         height: auto;
