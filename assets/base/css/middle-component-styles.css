@@ -45,8 +45,7 @@
 
 .middle-paragraph-holder::-webkit-scrollbar {
     width: .3vw;
-    overflow: visible;
-    background-image: url('../img/img-scrollbar-bg.png');
+    background-image: url('../img/img-scrollbar-white-bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -55,9 +54,9 @@
 @media (max-width: 991px) {
     .middle-main {height: auto;}
     .middle-social-icon {width: 25px;}
-    .middle-paragraph {font-size: 12px;}
-    .middle-main-title > span:is(:first-of-type, :last-of-type){font-size: 23px !important;}
-    .middle-paragraph-holder::-webkit-scrollbar {width: 3px;}
+    .middle-paragraph {font-size: 17px;}
+    .middle-main-title > span:is(:first-of-type, :last-of-type){font-size: 32px !important;}
+    .middle-paragraph-holder::-webkit-scrollbar {width: 5px;}
 
     .middle-section {
         width: 100%;
@@ -65,7 +64,7 @@
     }
 
     .middle-paragraph-holder {
-        height: 150px !important;
+        height: 250px !important;
         margin-bottom: 20px;
         width: 100%;
     }
