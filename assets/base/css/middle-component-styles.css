@@ -125,6 +125,56 @@
     .middle-main-title > span:is(:first-of-type, :last-of-type){font-size: 32px !important;}
     :is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar {width: 5px;}
     .middle-main {gap: 0;}
+    .middle-btns-holder {margin-bottom: 30px;}
+    .middle-comment-name,.middle-comment-lastname {font-size: 24px !important;}
+    .middle-form-name,.middle-form-lastname {font-size: 32px !important;}
+    .middle-comment-content-holder, .middle-form-content {border-left: none;}
+    .middle-comment-paragraph {font-size: 18px !important;}
+    .middle-comment-holder {gap: 25px;}
+    .middle-form-holder {margin-left: 0;}
+    .middle-form-holder > form{padding: 20px;}
+    .middle-form-send {padding: 15px;}
+    .middle-form-input::placeholder, .middle-form-send {font-size: 15px;}
+    .middle-scroll-holder.h-75 {height: 250px !important;}
+    .middle-scroll-holder {margin-block: 30px !important;}
+
+    .middle-form-input{
+        font-size: 16px !important;
+        margin-bottom: 20px;
+    }
+
+    .middle-form-send > span{
+        font-size: 22px !important;
+        transform: rotate(0) !important;
+    }
+
+
+    .middle-form-input {
+        padding: 0;
+        height: 150px;
+    }
+
+    .middle-form-img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        transform: scale(1);
+    }
+
+    .middle-comment-img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .middle-btn {
+        width: 40px;
+        height: 40px;
+    }
+
     .middle-section {
         width: 100%;
         height: auto;
