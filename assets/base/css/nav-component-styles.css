@@ -34,7 +34,7 @@ nav {
 }
 
 /*Hover , ..*/
-.nav-link:is(:hover, :focus):before {width: 100%;}
+.nav-link:is(:hover, :focus):before, .nav-link.active::before {width: 100%;}
 
 /*Media Query's*/
 @media (max-width: 991px) {
