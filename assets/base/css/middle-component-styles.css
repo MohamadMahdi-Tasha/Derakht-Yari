@@ -18,6 +18,7 @@
 .middle-blogs-holder {gap: 2vw;}
 .middle-comment-name, .middle-comment-lastname {font-size: 1vw !important;}
 .middle-form-name, .middle-form-lastname{font-size: 1vw !important;}
+.middle-main-title-small {font-size: 2vw;}
 
 .middle-section {
     width: 40vw;
@@ -117,6 +118,12 @@
     transform: rotate(-90deg);
 }
 
+.middle-download-btn {
+    padding-inline: 1vw;
+    padding-block: .5vw;
+    font-size: 1vw;
+}
+
 /*Media Query's*/
 @media (max-width: 991px) {
     .middle-main {height: auto;}
@@ -131,12 +138,19 @@
     .middle-comment-content-holder, .middle-form-content {border-left: none;}
     .middle-comment-paragraph {font-size: 18px !important;}
     .middle-comment-holder {gap: 25px;}
+    .middle-main-title-small {font-size: 25px;}
     .middle-form-holder {margin-left: 0;}
     .middle-form-holder > form{padding: 20px;}
     .middle-form-send {padding: 15px;}
     .middle-form-input::placeholder, .middle-form-send {font-size: 15px;}
     .middle-scroll-holder.h-75 {height: 250px !important;}
     .middle-scroll-holder {margin-block: 30px !important;}
+
+    .middle-download-btn {
+        font-size: 18px;
+        padding-inline: 25px;
+        padding-block: 20px;
+    }
 
     .middle-form-input{
         font-size: 16px !important;

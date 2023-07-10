@@ -13,6 +13,7 @@
     --dark-map-grey: #A3A8A2;
     --light-map-grey: #B5BAB4;
     --yelow-green: #C7DB46;
+    --dark-emerald: #374E31;
 }
 
 /*Styles*/
@@ -23,12 +24,14 @@ body {font-family: yekanbakh, sans-serif !important;}
 .text-emerald {color: var(--emerald);}
 .text-dark-grey {color: var(--dark-grey-color);}
 .text-yellow-green {color: var(--yelow-green);}
+.text-dark-emerald {color: var(--dark-emerald);}
 
 .bg-theme {background-color: var(--theme-color);}
 .bg-grey {background-color: var(--grey-color);}
 .bg-emerald {background-color: var(--emerald);}
 .bg-dark-grey {background-color: var(--dark-grey-color);}
 .bg-yellow-green {background-color: var(--yelow-green);}
+.bg-dark-emerald {background-color: var(--dark-emerald);}
 
 .fw-extrabold {font-weight: 800;}
 .fw-black {font-weight: 900;}

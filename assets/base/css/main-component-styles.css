@@ -20,6 +20,11 @@
 .blog-paragraph {font-size: 1vw !important;}
 .blog-img, .blog-content {width: 50%;}
 
+.tutorial-holder {
+    height: 32vw;
+    margin-bottom: 2vw;
+}
+
 .main-blog-holder {
     height: 30vw !important;
     margin-bottom: 3vw;
@@ -107,6 +112,11 @@
     .blog-title {font-size: 18px !important;}
     .blog-paragraph {font-size: 13px !important;}
     .main-blog-holder {height: 500px !important;}
+
+    .tutorial-holder {
+        height: 500px;
+        margin-bottom: 20px;
+    }
 
     .main-section {
         width: 100%;
