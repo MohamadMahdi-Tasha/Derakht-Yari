@@ -19,9 +19,19 @@
 .main-blog-holder > ul {gap: 2vw !important;}
 .blog-paragraph {font-size: 1vw !important;}
 .blog-img, .blog-content {width: 50%;}
+.left-pdf-img {cursor: pointer;}
+.left-pdf-img.active {box-shadow: 0 0 10px rgba(0,0,0,.2);}
+:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar-thumb {background-color: black;}
+
+.tutorials-left-holder {
+    padding-right: 1.5vw;
+    padding-left: 1vw;
+    padding-block: 1vw;
+}
 
 .tutorial-holder {
     height: 30vw;
+    gap: 2vw;
     margin-bottom: 3.7vw;
 }
 
@@ -63,15 +73,11 @@
     padding-right: 2vw;
 }
 
-:is(.main-holder-scroller, .main-blog-holder)::-webkit-scrollbar {
+:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/img-scrollbar-black-bg.png');
     background-size: cover;
     background-position: center center;
-}
-
-:is(.main-holder-scroller, .main-blog-holder)::-webkit-scrollbar-thumb {
-    background-color: black;
 }
 
 .negar-items-holder {
