@@ -56,7 +56,7 @@
 
 :is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar {
     width: .3vw;
-    background-image: url('../img/img-scrollbar-white-bg.png');
+    background-image: url('scrollbar/img-scrollbar-white-bg.png');
     background-size: cover;
     background-position: center;
 }
