@@ -1,3 +1,6 @@
+/*Importing Font*/
+@import "../fonts/yekan-bakh/yekan-bakh.css";
+
 /*Variables*/
 :root {
     --theme-color: #60725A;
@@ -15,7 +18,7 @@
 
 /*Styles*/
 body {
-    font-family: yekanbakh, sans-serif !important;
+    font-family: 'yekan-bakh', sans-serif !important;
     overflow-x: hidden;
     overflow-y: hidden;
 }
