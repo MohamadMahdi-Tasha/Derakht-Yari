@@ -12,7 +12,7 @@
 .main-header-subtitle {font-size: 1.7vw;}
 .main-big-title {font-size: 2vw;}
 .main-subtitle {font-size: 1.6vw;}
-.negar-item:hover > :is(.negar-bg, .negar-border){opacity: 1;}
+:is(.negar-item:hover, .negar-item.active) > :is(.negar-bg, .negar-border){opacity: 1;}
 .negar-bg {background-color: rgba(0, 0, 0, .2);}
 .negar-item {height: 10vw;}
 .blog-content {padding: 2vw;}
