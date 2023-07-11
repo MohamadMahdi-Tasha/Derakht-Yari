@@ -111,27 +111,8 @@
         <span class="copy-text fw-normal text-dark-grey">تمامی حقوق  متعلق به پویش درخت یاری میباشد.</span>
     </footer>
 </section>
+<!--Linking JS Files-->
+<noscript>لطفا جاوا اسکریپت مرورگر خود را فعال کنید.</noscript>
+<script src="assets/base/js/tutorialPage.js"></script>
 </body>
-<script>
-    const emebedElement = document.getElementById('embed-element');
-    const mainLeftImages = document.querySelectorAll('.left-pdf-img');
-
-    window.addEventListener('load', () => {
-        const firstImg = mainLeftImages[0];
-        const dataURLFirstImage = firstImg.getAttribute('data-url');
-
-        emebedElement.src = dataURLFirstImage;
-    })
-
-    mainLeftImages.forEach((item => {
-        item.addEventListener('click', () => {
-            const dataURLItem = item.getAttribute('data-url');
-            const activeImage = document.querySelector('.left-pdf-img.active');
-
-            emebedElement.src = dataURLItem;
-            item.classList.add('active');
-            activeImage.classList.remove('active');
-        })
-    }))
-</script>
 </html>
