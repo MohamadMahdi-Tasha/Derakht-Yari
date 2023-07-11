@@ -46,11 +46,10 @@
 
 /*Media Querys*/
 @media (max-width: 991px) {
+    .my-modal.rounded-3 {border-radius: 0 !important;}
     .my-modal {
         width: 100%;
         height: 100%;
         overflow: auto;
     }
-
-    .my-modal.rounded-3 {border-radius: 0 !important;}
 }

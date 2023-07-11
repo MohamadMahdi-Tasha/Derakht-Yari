@@ -24,6 +24,22 @@
 .left-pdf-img.active {box-shadow: 0 0 10px rgba(0,0,0,.2);}
 :is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar-thumb {background-color: black;}
 
+.main-input {
+    border: 1px solid var(--emerald);
+    text-align: right;
+    padding: 1vw;
+    font-size: 1vw;
+    outline: none;
+}
+
+.main-submit-btn {
+    background-color: var(--emerald);
+    padding: 1vw;
+    border: none;
+    color: white;
+    font-size: 1vw;
+}
+
 .tutorials-left-holder {
     padding-right: 1.5vw;
     padding-left: 1vw;
@@ -119,6 +135,10 @@
     .blog-title {font-size: 18px !important;}
     .blog-paragraph {font-size: 13px !important;}
     .main-blog-holder {height: 500px !important;}
+    .main-input, .main-submit-btn {
+        padding: 10px;
+        font-size: 15px;
+    }
 
     .tutorial-holder {
         height: 500px;

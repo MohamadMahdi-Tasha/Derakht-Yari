@@ -41,8 +41,11 @@ body {
 .fw-black {font-weight: 900;}
 
 .border-holder {padding: 1vw;}
-
+.gap-vw {gap: 2vw;}
 
 
 /*Media Querys*/
-@media (max-width: 991px) {body {overflow-y: auto;}}
+@media (max-width: 991px) {
+    body {overflow-y: auto;}
+    .gap-vw {gap: 20px;}
+}
