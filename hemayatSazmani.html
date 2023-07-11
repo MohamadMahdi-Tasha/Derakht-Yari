@@ -131,14 +131,18 @@
         </div>
         <a href="#"><button class="main-header-btn fw-black border-0 bg-emerald text-white rounded-5" tabindex="-1">ورود/ثبت نام</button></a>
     </header>
-    <main class="d-flex flex-lg-row flex-column justify-content-between">
-        <form action="#" class="main-holder-scroller gap-vw overflow-auto d-flex flex-column w-100" dir="ltr">
+    <main class="d-flex flex-lg-row flex-column justify-content-between main-holder-scroller overflow-auto" dir="ltr">
+        <form action="#" class="d-flex flex-column w-100 gap-vw" dir="rtl" id="info-form">
             <input class="main-input" type="text" placeholder="نام و نام خوانوادگی" required>
             <input class="main-input" type="tel" placeholder="شماره تلفن" required>
             <input class="main-input" type="email" placeholder="ایمیل" required>
             <input class="main-input" type="text" placeholder="نام سازمان" required>
+            <p class="text-grey text-end p-0 m-0 fw-light">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
             <button class="main-submit-btn">ثبت اطلاعات</button>
         </form>
+        <div dir="rtl" id="signed-text" class="d-none w-100">
+            <h1 class="text-center main-title">اطلاعات مورد نظر ثبت شده و در اولین وقت با شما تماس گرفته خواهد شد.</h1>
+        </div>
     </main>
     <footer class="d-flex justify-content-lg-end justify-content-center">
         <span class="copy-text fw-normal text-dark-grey">تمامی حقوق  متعلق به پویش درخت یاری میباشد.</span>
@@ -147,5 +151,6 @@
 <!--Linking JS Files-->
 <noscript>لطفا جاوا اسکریپت مرورگر خود را فعال کنید.</noscript>
 <script src="assets/base/js/modal.js"></script>
+<script src="assets/base/js/hemayatPage.js"></script>
 </body>
 </html>
