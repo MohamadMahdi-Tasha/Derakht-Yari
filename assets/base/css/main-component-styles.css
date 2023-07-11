@@ -5,7 +5,8 @@
 .main-number {font-size: 1.5vw;}
 .main-title {font-size: 1.25vw;}
 .copy-text {font-size: 1vw !important;}
-#ir > g {cursor: pointer;}
+#ir > g {cursor: pointer;transition: .3s;}
+#ir > g:hover {fill: black !important;}
 #ir > g:not(#esfahan,#fars,#golestan,#mazandaran,#khozestan,#hamedan,#azarbaijan-sh,#kordestan,#khorasan-r,#kerman) {fill: var(--light-map-grey);}
 #esfahan, #fars, #golestan, #mazandaran, #khozestan, #hamedan, #azarbaijan-sh, #kordestan, #khorasan-r, #kerman {fill: var(--dark-map-grey);}
 .iran-svg-component {width: 75%;}
