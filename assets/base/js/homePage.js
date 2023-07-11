@@ -1,3 +1,7 @@
+// Variables
+const citysInIR = document.querySelectorAll('#ir > g');
+const middleHeaderImg = document.getElementById('middle-header-img');
+
 // A Function That Takes Id Of Element And Max Number Of It That ..
 function countUp(itemId, maxNumber) {
     // Adding Event Listener Of Load To Window That ..
@@ -32,3 +36,14 @@ countUp('housholds-count', 2000)
 countUp('hektar-count', 1000000)
 countUp('jahad-count', 31)
 countUp('people-count', 126)
+
+// Adding Event Listener Of Click To Each Citys In Iran (SVG) That ..
+citysInIR.forEach(item => {
+    item.addEventListener('click', () => {
+        // Variables
+        const dataImageURL = item.getAttribute('data-img-url');
+
+        // Setting SRC of Middle Header To Value Of 'data-img-url' Attribute Of Clicked Item.
+        middleHeaderImg.src = dataImageURL;
+    })
+})

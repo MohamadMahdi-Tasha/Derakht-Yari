@@ -39,10 +39,10 @@
     <div class="bg-white d-lg-flex d-none align-items-center justify-content-center overflow-y-auto overflow-x-hidden nav-inner">
         <ul class="d-flex align-items-center list-unstyled nav-links-holder p-0 m-0">
             <li><a class="text-nowrap fw-normal position-relative text-black nav-link active" href="index.html">خانه</a></li>
-            <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="aboutUs.html">درباره ما</a></li>
+            <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="contactAboutUs.html">درباره ما</a></li>
             <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="blogs.html">بلاگ</a></li>
             <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="tutorial.html">اموزش</a></li>
-            <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="contactUs.html">تماس با ما</a></li>
+            <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="contactAboutUs.html">تماس با ما</a></li>
             <li><a class="text-nowrap fw-normal position-relative text-black nav-link" href="negarKhane.html">گالری تصویر</a></li>
         </ul>
     </div>
@@ -182,16 +182,5 @@
 <!--Linking JS Files-->
 <noscript>لطفا جاوا اسکریپت مرورگر خود را فعال کنید.</noscript>
 <script src="assets/base/js/homePage.js"></script>
-<script>
-    const citysInIR = document.querySelectorAll('#ir > g');
-    const middleHeaderImg = document.getElementById('middle-header-img');
-
-    citysInIR.forEach(item => {
-        item.addEventListener('click', () => {
-            const dataImageURL = item.getAttribute('data-img-url');
-            middleHeaderImg.src = dataImageURL;
-        })
-    })
-</script>
 </body>
 </html>
