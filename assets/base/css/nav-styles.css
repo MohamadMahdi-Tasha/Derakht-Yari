@@ -13,12 +13,17 @@ nav {
 
 .nav-links-holder {
     transform: rotate(-90deg);
-    gap: 2vw;
+    gap: 1.5vw;
 }
 
 .nav-link {
     font-size: 1vw !important;
     font-weight: 500 !important;
+}
+
+.nav-link-icon {
+    width: 1vw;
+    height: 1vw;
 }
 
 /*After, Before*/

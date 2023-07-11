@@ -42,5 +42,7 @@ body {
 
 .border-holder {padding: 1vw;}
 
+
+
 /*Media Querys*/
 @media (max-width: 991px) {body {overflow-y: auto;}}
