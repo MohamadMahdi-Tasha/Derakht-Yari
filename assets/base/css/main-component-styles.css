@@ -86,7 +86,7 @@
 }
 
 .negar-border, .negar-bg {
-    opacity: 0;
+    opacity: .6;
     transition: .3s
 }
 
