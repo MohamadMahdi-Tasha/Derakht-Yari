@@ -15,7 +15,6 @@
 .main-subtitle {font-size: 1.6vw;}
 :is(.negar-item:hover, .negar-item.active) > :is(.negar-bg, .negar-border){opacity: 1;}
 .negar-bg {background-color: rgba(0, 0, 0, .2);}
-.negar-item {height: 10vw;}
 .blog-content {padding: 2vw;}
 .main-blog-holder > ul {gap: 2vw !important;}
 .blog-paragraph {font-size: 1vw !important;}
@@ -23,6 +22,11 @@
 .left-pdf-img {cursor: pointer;}
 .left-pdf-img.active {box-shadow: 0 0 10px rgba(0,0,0,.2);}
 :is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar-thumb {background-color: black;}
+
+.negar-item {
+    height: 10vw;
+    cursor: pointer !important;
+}
 
 .main-input {
     border: 1px solid var(--emerald);
