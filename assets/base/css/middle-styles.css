@@ -145,6 +145,7 @@
     .middle-form-input::placeholder, .middle-form-send {font-size: 15px;}
     .middle-scroll-holder.h-75 {height: 250px !important;}
     .middle-scroll-holder {margin-block: 30px !important;}
+    .middle-social-icon {width: 20px;}
 
     .middle-download-btn {
         font-size: 18px;

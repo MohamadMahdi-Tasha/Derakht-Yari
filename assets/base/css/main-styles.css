@@ -119,7 +119,7 @@
 
 /*Media Query's*/
 @media (max-width: 991px) {
-    .main-header-logo {width: 20%;}
+    .main-header-logo {width: 100px;}
     .iran-svg-component {width: 100%;}
     .main-section-left {gap: 20px;}
     .main-section-left-contact {padding-bottom: 0;}
