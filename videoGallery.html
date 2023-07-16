@@ -20,6 +20,7 @@
     <link rel="apple-touch-icon" href="assets/base/img/logo/img-logo.png">
     <!--Linking CSS Files-->
     <link rel="stylesheet" href="assets/base/css/styles.css">
+    <link rel="stylesheet" href="assets/base/css/mobile-nav-styles.css">
     <link rel="stylesheet" href="assets/base/css/modal-style.css">
     <link rel="stylesheet" href="assets/base/css/nav-styles.css">
     <link rel="stylesheet" href="assets/base/css/middle-styles.css">
@@ -30,7 +31,31 @@
     <title>درخت یاری - گالری ویدیو</title>
 </head>
 <body dir="rtl" class="d-flex flex-lg-row flex-column min-vh-100">
-<div data-opened="false" id="modal-bg" class="my-modal-bg w-100 h-100 position-absolute top-0 position-fixed d-lg-block d-none"></div>
+<div data-opened="false" id="mobile-nav-bg" class="d-lg-none d-block position-fixed top-0 left-0 w-100 h-100"></div>
+<nav data-opened="false" id="mobile-nav" class="d-lg-none overflow-auto p-3 w-75 h-100 d-block position-fixed bg-theme">
+    <button class="bg-theme mb-3 text-white border-0" id="mobile-nav-close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg>
+    </button>
+    <ul class="list-unstyled m-0 mb-5 d-flex flex-column gap-3 p-0">
+        <li><a class="text-white text-decoration-none fw-normal" href="index.html">خانه</a></li>
+        <li><a class="text-white text-decoration-none fw-normal" href="contactAboutUs.html">درباره ما</a></li>
+        <li><a class="text-white text-decoration-none fw-normal" href="blogs.html">بلاگ</a></li>
+        <li><a class="text-white text-decoration-none fw-normal" href="tutorial.html">اموزش</a></li>
+        <li><a class="text-white text-decoration-none fw-normal" href="videoGallery.html">گالری ویدیو ها</a></li>
+        <li><a class="text-white text-decoration-none fw-normal" href="negarKhane.html">گالری تصویر</a></li>
+    </ul>
+    <form class="d-flex border border-white" action="#">
+        <input type="text" required class="w-100 px-3 py-2 bg-transparent mobile-nav-input text-white border-0" placeholder="جستجو کنید">
+        <button class="px-4 text-white border-0 bg-transparent">
+            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </button>
+    </form>
+</nav>
+<div data-opened="false" id="modal-bg" class="my-modal-bg w-100 h-100 top-0 position-fixed d-lg-block d-none"></div>
 <form data-opened="false" id="modal" action="#" class="my-modal bg-white rounded-3 p-3 top-50 position-fixed">
     <button id="modal-close" class="my-modal-close border-0 rounded-circle mb-3 bg-emerald text-white d-flex align-items-center justify-content-center" type="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
@@ -45,10 +70,15 @@
     </div>
     <button class="my-modal-btn w-100 text-light p-2 border-0 bg-emerald">جست و جو کنید</button>
 </form>
-<nav class="d-flex p-lg-0 p-2 flex-lg-column flex-row justify-content-lg-start justify-content-center align-content-lg-start align-items-center">
+<nav class="d-flex p-lg-0 p-2 flex-lg-column flex-row justify-content-lg-start justify-content-between align-content-lg-start align-items-center">
     <a href="index.html" class="nav-logo-holder d-lg-flex d-none bg-grey justify-content-center align-items-center">
         <img class="w-50" src="assets/base/img/logo/img-logo.png" alt="لوگوی درخت یاری">
     </a>
+    <button id="mobile-nav-opener" class="d-lg-none d-flex justify-content-center align-items-center border-0 bg-theme text-white rounded-circle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+    </button>
     <a class="d-lg-none d-block" href="index.html">
         <img width="125" src="assets/base/img/logo/img-logo-typo.png" alt="لوگو درخت یاری">
     </a>
@@ -228,5 +258,6 @@
 <noscript>لطفا جاوا اسکریپت مرورگر خود را فعال کنید.</noscript>
 <script src="assets/base/js/modal.js"></script>
 <script src="assets/base/js/negarPage.js"></script>
+<script src="assets/base/js/mobileNav.js"></script>
 </body>
 </html>

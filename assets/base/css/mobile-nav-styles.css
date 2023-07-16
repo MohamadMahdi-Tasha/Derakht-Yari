@@ -1,0 +1,36 @@
+/*Styles*/
+.mobile-nav-input {outline: none}
+.mobile-nav-input::placeholder {color: white}
+
+#mobile-nav-bg {
+    background-color: rgba(0,0,0,.5);
+    z-index: 6;
+    transition: .5s;
+}
+
+#mobile-nav {
+    z-index: 6;
+    transition: .5s;
+}
+
+#mobile-nav[data-opened='true'] {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+#mobile-nav[data-opened='false'] {
+    right: -75%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#mobile-nav-bg[data-opened='true'] {
+    opacity: 1;
+    visibility: visible;
+}
+
+#mobile-nav-bg[data-opened='false'] {
+    opacity: 0;
+    visibility: hidden;
+}
