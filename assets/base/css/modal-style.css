@@ -26,11 +26,13 @@
 
 .my-modal[data-opened="true"] {
     transform: scale(1) translateX(-50%) translateY(-50%);
+    visibility: visible;
     opacity: 1;
 }
 
 .my-modal[data-opened="false"] {
     transform: scale(.97) translateX(-50%) translateY(-50%);
+    visibility: hidden;
     opacity: 0;
 }
 
