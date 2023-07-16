@@ -19,6 +19,7 @@
 .middle-comment-name, .middle-comment-lastname {font-size: 1vw !important;}
 .middle-form-name, .middle-form-lastname{font-size: 1vw !important;}
 .middle-main-title-small {font-size: 2vw;}
+.middle-blogs-paragraph-holder {width: 80%;}
 
 .middle-section {
     width: 40vw;
@@ -146,6 +147,7 @@
     .middle-scroll-holder.h-75 {height: 250px !important;}
     .middle-scroll-holder {margin-block: 30px !important;}
     .middle-social-icon {width: 20px;}
+    .middle-blogs-paragraph-holder {width: 100%;}
 
     .middle-download-btn {
         font-size: 18px;
