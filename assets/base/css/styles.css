@@ -31,7 +31,6 @@ body {
 .text-dark-emerald {color: var(--dark-emerald);}
 
 .bg-theme {background-color: var(--theme-color);}
-.bg-grey {background-color: var(--grey-color);}
 .bg-emerald {background-color: var(--emerald);}
 .bg-dark-grey {background-color: var(--dark-grey-color);}
 .bg-yellow-green {background-color: var(--yelow-green);}
