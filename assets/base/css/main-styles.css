@@ -154,7 +154,12 @@
     .blog-title, .tutorial-title {font-size: 18px !important;}
     .blog-paragraph, .tutorial-paragraph {font-size: 13px !important;}
     .contact-main-img {width: 75%;}
-    .main-section::before {display: none;}
+
+    .main-section::before {
+        left: 0;
+        bottom: 0;
+        transform: rotate(0);
+    }
 
     .main-holder-scroller {
         height: auto;
