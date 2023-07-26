@@ -22,10 +22,10 @@ mainLeftImages.forEach((item => {
         // Setting Src Attribute Of Embed Element To Value Of 'data-url' Attribute Of Clicked Element
         emebedElement.src = dataURLItem;
 
-        // Adding Class Of 'active' To CLicked Element
-        item.classList.add('active');
-
         // Removing Class Of 'active' From Active Element
         activeImage.classList.remove('active');
+
+        // Adding Class Of 'active' To CLicked Element
+        item.classList.add('active');
     })
 }))
