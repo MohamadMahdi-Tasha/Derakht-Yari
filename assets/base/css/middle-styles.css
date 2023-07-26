@@ -20,6 +20,7 @@
 .middle-main-title-small {font-size: 2vw;}
 .middle-blogs-paragraph-holder {width: 80%;}
 .middle-title-holder {margin-bottom: 2vw;}
+.middle-blogs-holder {height: 100%;}
 
 .middle-socials {
     gap: 1vw;
@@ -164,6 +165,16 @@
     .middle-scroll-holder {margin-block: 30px !important;}
     .middle-social-icon {width: 20px;}
     .middle-blogs-paragraph-holder {width: 100%;}
+    .middle-blogs-holder {height: 300px;}
+    .middle-title-holder {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .middle-tutorial-paragraph-holder {
+        height: 300px;
+        margin-bottom: 20px;
+    }
 
     .middle-download-btn {
         font-size: 18px;
@@ -225,7 +236,7 @@
     }
 
     .middle-header {
-        height: auto;
+        height: 300px;
         width: 100%;
     }
 

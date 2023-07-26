@@ -42,9 +42,9 @@ body {
 .border-holder {padding: 1vw;}
 .gap-vw {gap: 2vw;}
 
-
 /*Media Querys*/
 @media (max-width: 991px) {
     body {overflow-y: auto;}
+    .copy-text {text-align: center;}
     .gap-vw {gap: 20px;}
 }

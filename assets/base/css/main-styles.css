@@ -25,6 +25,7 @@
 .tutorials-left-holder {width: 25%;}
 .iran-svg-all {width: 75%;}
 .tutorial-holder > ul {gap: 1vw;}
+.contact-main-img {width: 50%;}
 
 .main-section::before {
     content: '';
@@ -146,24 +147,28 @@
     .main-subtitle {font-size: 32px;}
     .main-section-left-contact {width: 100%;}
     .negar-item {height: 300px;}
-    .main-holder-scroller {height: 50vh;}
     .negar-items-holder {grid-template-columns: repeat(1, 1fr);}
-    .main-holder-scroller::-webkit-scrollbar {width: 5px;}
     .blog-img, .blog-content, .tutorial-content, .tutorial-img {width: 100%;}
     .iran-svg-all {width: 100%;}
     .blog-img, .tutorial-img {height: 150px;}
     .blog-title, .tutorial-title {font-size: 18px !important;}
     .blog-paragraph, .tutorial-paragraph {font-size: 13px !important;}
-    .main-blog-holder {height: 500px !important;}
+    .contact-main-img {width: 75%;}
     .main-section::before {display: none;}
+
+    .main-holder-scroller {
+        height: auto;
+        padding-right: 0;
+    }
+
+    .main-blog-holder, .tutorial-holder {
+        height: auto !important;
+        padding-right: 0;
+    }
+
     .main-input, .main-submit-btn {
         padding: 10px;
         font-size: 15px;
-    }
-
-    .tutorial-holder {
-        height: 500px;
-        margin-bottom: 20px;
     }
 
     .main-section {

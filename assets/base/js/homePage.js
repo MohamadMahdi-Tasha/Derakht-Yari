@@ -45,5 +45,14 @@ citysInIR.forEach(item => {
 
         // Setting SRC of Middle Header To Value Of 'data-img-url' Attribute Of Clicked Item.
         middleHeaderImg.src = dataImageURL;
+
+        // If Width Of Browser Is Less Or Equal To 991 (px) Scroll To Top Of Page
+        if (window.innerWidth <= 991) {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
     })
 })
