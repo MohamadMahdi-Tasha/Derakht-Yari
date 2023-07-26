@@ -22,6 +22,13 @@
 .middle-title-holder {margin-bottom: 2vw;}
 .middle-blogs-holder {height: 100%;}
 
+.middle-main-contact {
+    background-image: url('../img/img-city.png');
+    background-size: 100%;
+    background-position-y: -100%;
+    background-repeat: no-repeat;
+}
+
 .middle-socials {
     gap: 1vw;
     grid-template-columns: repeat(3, 1fr);
@@ -166,6 +173,8 @@
     .middle-social-icon {width: 20px;}
     .middle-blogs-paragraph-holder {width: 100%;}
     .middle-blogs-holder {height: 300px;}
+    .middle-main-contact {background-position-y: 200px;}
+    
     .middle-title-holder {
         margin-top: 0;
         margin-bottom: 20px;
