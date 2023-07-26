@@ -14,16 +14,17 @@
 .main-subtitle {font-size: 1.6vw;}
 :is(.negar-item:hover, .negar-item.active) > :is(.negar-bg, .negar-border){opacity: 1;}
 .negar-bg {background-color: rgba(0, 0, 0, .2);}
-.blog-content {padding: 2vw;}
+.blog-content, .tutorial-content {padding: 2vw;}
 .main-blog-holder > ul {gap: 2vw !important;}
-.blog-paragraph {font-size: 1vw !important;}
-.blog-img, .blog-content {width: 50%;}
+.blog-paragraph, .tutorial-paragraph {font-size: 1vw !important;}
+.blog-img, .blog-content, .tutorial-content, .tutorial-img {width: 50%;}
 .left-pdf-img {cursor: pointer;}
 .left-pdf-img.active {box-shadow: 0 0 10px rgba(0,0,0,.2);}
-:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar-thumb {background-color: black;}
+:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder, .tutorial-holder)::-webkit-scrollbar-thumb {background-color: black;}
 #embed-element {width: 75%;}
 .tutorials-left-holder {width: 25%;}
 .iran-svg-all {width: 75%;}
+.tutorial-holder > ul {gap: 1vw;}
 
 .main-section::before {
     content: '';
@@ -66,8 +67,8 @@
 
 .tutorial-holder {
     height: 30vw;
-    gap: 2vw;
     margin-bottom: 3.7vw;
+    padding-right: 2vw;
 }
 
 .main-blog-holder {
@@ -108,7 +109,7 @@
     padding-right: 2vw;
 }
 
-:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder)::-webkit-scrollbar {
+:is(.main-holder-scroller, .main-blog-holder, .tutorials-left-holder, .tutorial-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/scrollbar/img-scrollbar-black-bg.png');
     background-size: cover;
@@ -125,7 +126,7 @@
     transition: .3s
 }
 
-.blog-title {
+.blog-title, .tutorial-title {
     font-size: 2vw;
     margin-bottom: 1vw !important;
 }
@@ -148,11 +149,11 @@
     .main-holder-scroller {height: 50vh;}
     .negar-items-holder {grid-template-columns: repeat(1, 1fr);}
     .main-holder-scroller::-webkit-scrollbar {width: 5px;}
-    .blog-img, .blog-content {width: 100%;}
+    .blog-img, .blog-content, .tutorial-content, .tutorial-img {width: 100%;}
     .iran-svg-all {width: 100%;}
-    .blog-img {height: 150px;}
-    .blog-title {font-size: 18px !important;}
-    .blog-paragraph {font-size: 13px !important;}
+    .blog-img, .tutorial-img {height: 150px;}
+    .blog-title, .tutorial-title {font-size: 18px !important;}
+    .blog-paragraph, .tutorial-paragraph {font-size: 13px !important;}
     .main-blog-holder {height: 500px !important;}
     .main-section::before {display: none;}
     .main-input, .main-submit-btn {

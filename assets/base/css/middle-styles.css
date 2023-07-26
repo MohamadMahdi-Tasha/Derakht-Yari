@@ -2,7 +2,7 @@
 .middle-main-title > span:first-of-type{font-size: 3vw !important;}
 .middle-main-title > span:last-of-type{font-size: 3.35vw !important;}
 .middle-arrow-icon {width: 5vw;}
-:is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar-thumb {background-color: white;}
+:is(.middle-paragraph-holder, .middle-scroll-holder, .middle-tutorial-paragraph-holder)::-webkit-scrollbar-thumb {background-color: white;}
 .middle-paragraph {font-size: 1vw;}
 .middle-social-icon {width: 1.5vw;}
 .middle-socials {gap: 1vw;width: auto;}
@@ -10,7 +10,7 @@
 .middle-header {height: 20vw;}
 .middle-main-title {margin-right: 0;margin-bottom: 1.5vw;}
 .middle-main-title-btns-holder {margin-bottom: 1.5vw;}
-.middle-title-holder, .middle-paragraph-holder {height: 50% !important;}
+.middle-paragraph-holder {height: 50%;}
 .middle-btns-holder {gap: .5vw;}
 .middle-comment-name, .middle-comment-lastname, .middle-comment-paragraph  {font-size: 1vw !important;}
 .middle-form-holder {margin-left: 5vw;}
@@ -20,6 +20,20 @@
 .middle-form-name, .middle-form-lastname{font-size: 1vw !important;}
 .middle-main-title-small {font-size: 2vw;}
 .middle-blogs-paragraph-holder {width: 80%;}
+.middle-title-holder {margin-bottom: 2vw;}
+
+.middle-download-btn {
+    padding-inline: 1.5vw;
+    padding-block: 1vw;
+    font-size: 1vw;
+}
+
+.middle-tutorial-paragraph-holder {
+    margin-bottom: 1vw;
+    height: 47%;
+    padding-right: 2vw;
+}
+
 #mobile-nav-opener {
     width: 40px;
     height: 40px;
@@ -59,7 +73,7 @@
     transform-origin: left center;
 }
 
-:is(.middle-paragraph-holder, .middle-scroll-holder)::-webkit-scrollbar {
+:is(.middle-paragraph-holder, .middle-scroll-holder, .middle-tutorial-paragraph-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/scrollbar/img-scrollbar-white-bg.png');
     background-size: cover;
@@ -121,12 +135,6 @@
 .middle-form-send > span {
     font-size: 1vw;
     transform: rotate(-90deg);
-}
-
-.middle-download-btn {
-    padding-inline: 1vw;
-    padding-block: .5vw;
-    font-size: 1vw;
 }
 
 /*Media Query's*/
