@@ -1,5 +1,5 @@
 // Variables
-const citysInIR = document.querySelectorAll('#ir > path:not(#ir-bg)');
+const citysInIR = document.querySelectorAll('#ir > path:not(#ir-bg, #ir-stroke)');
 const middleHeaderImg = document.getElementById('middle-header-img');
 
 // A Function That Takes Id Of Element And Max Number Of It That ..

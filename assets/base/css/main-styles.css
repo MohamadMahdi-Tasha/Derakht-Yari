@@ -6,8 +6,8 @@
 .main-number {font-size: 1.5vw;}
 .main-title {font-size: 1.25vw;}
 .copy-text {font-size: 1vw !important;}
-#ir > path:not(#ir-bg) {cursor: pointer;transition: .3s;}
-#ir > path:not(#ir-bg):hover {fill: #2C2E2B !important;}
+#ir > path:not(#ir-bg, #ir-stroke) {cursor: pointer;transition: .3s;}
+#ir > path:not(#ir-bg, #ir-stroke):hover {fill: #2C2E2B !important;}
 .iran-svg-component {width: 75%;}
 .main-header-subtitle {font-size: 1.7vw;}
 .main-big-title {font-size: 2vw;}
