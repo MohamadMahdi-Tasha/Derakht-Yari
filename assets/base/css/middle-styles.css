@@ -18,9 +18,9 @@
 .middle-comment-name, .middle-comment-lastname {font-size: 1vw !important;}
 .middle-form-name, .middle-form-lastname{font-size: 1vw !important;}
 .middle-main-title-small {font-size: 2vw;}
-.middle-blogs-paragraph-holder {width: 80%;}
 .middle-title-holder {margin-bottom: 2vw;}
 .middle-blogs-holder {height: 100%;}
+.middle-paragraph-holder-with-padding {padding-left: 8vw;}
 
 .middle-main-contact {
     background-image: url('../img/img-city.png');
@@ -56,12 +56,6 @@
     height: 100vh;
 }
 
-.middle-paragraph-holder,
-.middle-scroll-holder{
-    padding-right: 2vw;
-    width: 80%;
-}
-
 .middle-main {
     height: 27vw;
     padding: 3vw;
@@ -85,6 +79,7 @@
     transform-origin: left center;
 }
 
+.middle-paragraph-holder, .middle-scroll-holder, .middle-tutorial-paragraph-holder {padding-right: 2vw;}
 :is(.middle-paragraph-holder, .middle-scroll-holder, .middle-tutorial-paragraph-holder)::-webkit-scrollbar {
     width: .3vw;
     background-image: url('../img/scrollbar/img-scrollbar-white-bg.png');
@@ -171,10 +166,9 @@
     .middle-scroll-holder.h-75 {height: 250px !important;}
     .middle-scroll-holder {margin-block: 30px !important;}
     .middle-social-icon {width: 20px;}
-    .middle-blogs-paragraph-holder {width: 100%;}
     .middle-blogs-holder {height: 300px;}
     .middle-main-contact {background-position-y: 200px;}
-
+    .middle-paragraph-holder-with-padding {padding-left: 0;}
     .middle-title-holder {
         margin-top: 0;
         margin-bottom: 20px;
